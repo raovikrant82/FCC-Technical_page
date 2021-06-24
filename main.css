@@ -11,6 +11,24 @@ body {
   display: flex;
 }
 
+.main-section {
+  background-color: gray;
+  color: white;
+  padding: 20px 10px;
+  margin: 10px;
+}
+
+.main-section header {
+  background-color: white;
+  color: gray;
+  padding: 5px 10px;
+}
+
+.main-section a {
+  color: white;
+  font-weight: 800;
+}
+
 #navbar {
   width: 25vw;
   padding: 20px;
@@ -53,24 +71,6 @@ body {
 
 #title-description {
   font-weight: 700;
-}
-
-.main-section {
-  background-color: gray;
-  color: white;
-  padding: 20px 10px;
-  margin: 10px;
-}
-
-.main-section header {
-  background-color: white;
-  color: gray;
-  padding: 5px 10px;
-}
-
-.main-section a {
-  color: white;
-  font-weight: 800;
 }
 
 @media (max-width: 800px) {
