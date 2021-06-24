@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Technical page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>man page of cat command</header>
+    <ul>
+      <li><a class="nav-link" href="#synopsis">Synopsis</a></li>
+      <li><a class="nav-link" href="#description">Description</a></li>
+      <li><a class="nav-link" href="#examples">Examples</a></li>
+      <li><a class="nav-link" href="#author">Author</a></li>
+      <li><a class="nav-link" href="#reporting_bugs">Reporting bugs</a></li>
+      <li><a class="nav-link" href="#copyright">Copyright</a></li>
+      <li><a class="nav-link" href="#see_also">See also</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <h1 id="title">Cat ( Command )</h1>
+    <p id="title-description">cat - concatenate files and print on the standard output</p>
+    <section id="synopsis" class="main-section"><header>Synopsis</header>
+      <p><code>cat [OPTION]... [FILE]...</code></p>
+    </section>
+    <section id="description" class="main-section"><header>Description</header>
+      <p>Concatenate FILE(s) to standard output.</p>
+      <p>With no <code>FILE</code>, or when <code>FILE</code> is -, read standard input.</p>
+      <ul>
+        <li>-A, --show-all <br>
+              <p>equivalent to -vET</p></li>
+      <li>-b, --number-nonblank <br>
+        <p>number nonempty output lines, overrides -n</p></li>
+        <li>-e     <p>equivalent to -vE</p></li>
+      <li>-E, --show-ends <br>
+        <p>display $ at end of each line</p></li>
+      <li>-n, --number <br>
+        <p>number all output lines</p></li>
+      <li>-s, --squeeze-blank <br>
+        <p>suppress repeated empty output lines</p></li>
+      
+                <li>-t     <p>equivalent to -vT</p></li>
+      <li>-T, --show-tabs <br>
+        <p>display TAB characters as ^I</p></li>
+        <li>-u     <p>(ignored)</p></li>
+      <li>-v, --show-nonprinting <br>
+        <p>use ^ and M- notation, except for LFD and TAB</p></li>
+        <li><code>--help</code> <p>display this help and exit</p></li>
+      <li><code>--version</code> <br>
+        <p>output version information and exit</p></li>
+      </ul>
+      
+    </section>
+    <section id="examples" class="main-section"><header>Examples</header>
+      <p>cat f - g <br>
+              Output f's contents, then standard input, then g's contents.</p>
+      <p>cat    Copy standard input to standard output.</p>
+    </section>
+    <section id="author" class="main-section"><header>Author</header>
+      <p>Written by Torbjorn Granlund and Richard M. Stallman.</p>
+    </section>
+    <section id="reporting_bugs" class="main-section"><header>Reporting bugs</header>
+      <p>GNU coreutils online help: <a href="https://www.gnu.org/software/coreutils/">coreutils</a> <br>
+        Report cat translation bugs to <a href="https://translationproject.org/team/">report team</a></p>
+    </section>
+    <section id="copyright" class="main-section"><header>Copyright</header>
+      <p>Copyright  ©  2018  Free Software Foundation, Inc.  License GPLv3+: GNU
+        GPL version 3 or later <a href="https://gnu.org/licenses/gpl.html">Read here</a>.
+       This is free software: you are free  to  change  and  redistribute  it.
+       There is NO WARRANTY, to the extent permitted by law.</p>
+    </section>
+    <section id="see_also" class="main-section"><header>See also</header>
+      <p>tac(1)
+
+        Full documentation at: <a href="https://www.gnu.org/software/coreutils/cat">Cat command</a>
+       or available locally via: info '(coreutils) cat invocation'</p>
+    </section>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

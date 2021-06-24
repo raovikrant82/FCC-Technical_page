@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.main-section {
+  background-color: gray;
+  color: white;
+  padding: 20px 10px;
+  margin: 10px;
+}
+
+.main-section header {
+  background-color: white;
+  color: gray;
+  padding: 5px 10px;
+}
+
+.main-section a {
+  color: white;
+  font-weight: 800;
+}
+
+#navbar {
+  width: 25vw;
+  padding: 20px;
+  background: gray;
+}
+
+#navbar header {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.45rem;
+  color: white;
+  text-align: center;
+}
+
+#navbar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#navbar li {
+  border: 1px solid white;
+}
+
+#navbar li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+#main-doc {
+  padding: 35px;
+}
+
+#title {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+}
+
+#title-description {
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
